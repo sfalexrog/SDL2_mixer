@@ -6,6 +6,8 @@ LOCAL_MODULE := SDL2_mixer
 
 LOCAL_ARM_MODE := arm
 
+#LOCAL_ARM_NEON := true
+
 # Enable this if you want to support loading MOD music via modplug
 # The library path should be a relative path to this directory.
 #SUPPORT_MOD_MODPLUG ?= true
